@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>HelloWorld</h1>
+    <h1></h1>
     <add-task @task-added="fetchTasks"></add-task>
     <div v-for="task in tasks" :key="task.id">
       <task-item
