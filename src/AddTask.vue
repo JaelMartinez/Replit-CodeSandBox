@@ -5,7 +5,7 @@
       placeholder="Add new task"
       @keyup.enter="addTask"
     />
-    <button @click="addTask">Add Task</button>
+    <button @click="addTask">añadir tarea</button>
   </div>
 </template>
 
